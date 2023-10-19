@@ -1,0 +1,288 @@
+.image-container {
+    text-align: center; /* Center-align the image and caption */
+}
+
+figcaption {
+    font-style: italic; /* Optionally, style the caption text */
+    color: #888; /* Optionally, set the caption text color */
+}
+/* Default styles for images (make images responsive) */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    background-image: url('https://s26162.pcdn.co/wp-content/uploads/2022/05/Bible.jpg'); /* Set the path to your local PNG image file */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding for spacing */
+}
+h1 {
+    color: rgb(255, 255, 255); /* Change the color to your desired color */
+}
+h2 {
+    color: White; /* Change the color to your desired color */
+}
+h3 {
+    color: White; /* Change the color to your desired color */
+}
+p {
+    color: rgb(255, 255, 255); /* Change the color to your desired color */
+    font-size: 20px; /* Adjust the value to make it as big as you like */
+  font-family: "Helvetica", Arial, sans-serif; /* Replace with your desired font-family */
+  flex: 1; /* Allows the <p> to take up the remaining space */
+  text-align: justify; /* Justify the text within the <p> */
+}
+
+.centered-paragraph {
+    text-align: center;
+    color: white;
+}
+
+
+img.right-aligned {
+    margin-left: 20px; /* Add margin to the left to create separation between the <p> and image */
+    max-width: 50%; /* Adjust the image width as needed */
+    align-self: flex-start; /* Align the image to the top within the flex container */
+}
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; /* Adjust the maximum width as needed */
+}
+.left-aligned-image {
+    display: block;
+    margin: 0;
+    float: left; /* Align to the left */
+    max-width: 25%; /* Adjust the maximum width as needed */
+}
+
+
+
+
+body {
+    background-image: url('http://res.publicdomainfiles.com/pdf_view/65/13548579011320.png');
+    background-size: cover; /* Adjust to 'contain' or other values as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed to keep the image in place while scrolling */
+}
+/* styles.css */
+#ChurchLogo {
+    width: 1000px; /* Set the desired width */
+    height: 550px; /* Automatically adjust the height to maintain the aspect ratio */
+    border: 2px solid #3f3f3f; /* Add a border for illustration */
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #4a4545;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: #951717;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Default link color */
+    transition: color 0.3s; /* Smooth transition effect */
+}
+
+nav ul li a:hover {
+    color: #000000; /* Color on hover */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+
+body{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+footer{
+margin-top: auto;
+}
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+.comments-form {
+    width: 500%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center-align the form on the page */
+    padding: 20px; /* Add padding for spacing */
+}
+
+textarea {
+    width: 100%; /* Adjust the width of the textarea */
+    height: 200px; /* Adjust the height of the textarea */
+    resize: none; /* Disable user resizing */
+}
+
+
+button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.small-video {
+    width: 320px; /* Adjust the width as needed */
+    height: 240px; /* Adjust the height as needed */
+}
+
+footer {
+    
+    color: rgb(255, 255, 255); /* Text color for the footer */
+    padding: 2px;
+    text-align: center; /* Center-align the footer content */
+}
+/* Style the comment form label and textarea */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+/* Style the comment container */
+#comments {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style individual comments */
+#comments div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    textarea {
+        width: 100%;
+    }
+}
+/* Styles for the navigation bar */
+header {
+    text-align: center;
+    background-color: #312c2c;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #7c0e0e;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styles for images */
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%; /* Make images responsive */
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    nav a {
+        padding: 10px 0;
+    }
+
+    .image-container img {
+        max-width: 100%; /* Make images responsive on mobile */
+    }
+}
+.first {
+    width: 200px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+}
+.second {
+    width: 150px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+}
